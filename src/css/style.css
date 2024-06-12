@@ -7,8 +7,24 @@
 }
 
 .footer__container {
+  margin-top: 71px;
+  margin-left: 160px;
+  margin-right: 160px;
   display: flex;
   font-family: "Poppins", sans-serif;
+  justify-content: space-around;
+}
+.footer__container .footer__article {
+  padding: 27px 96px;
+  line-height: 30px;
+}
+.footer__container .footer__article h3 {
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.footer__container .footer__article p {
+  font-size: 18px;
+  color: #909090;
 }
 
 .header__container {
@@ -20,7 +36,7 @@
 }
 .header__container .header__main__nav-ul {
   display: flex;
-  gap: 56px;
+  gap: 75px;
   list-style: none;
 }
 .header__container .header__main__nav-ul li a {
@@ -52,10 +68,64 @@
   text-decoration: none;
 }
 
+.main__container {
+  margin-top: 24px;
+  margin-left: 160px;
+  margin-right: 160px;
+  position: relative;
+  background-image: url("../img/imghero2x.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 1000px;
+  min-width: 588px;
+}
+.main__container .hero {
+  padding: 26px 20px 54px 56px;
+  margin-top: 90px;
+  right: 0px;
+  top: 0;
+  max-width: 800px;
+  min-width: 500px;
+  margin-bottom: 20px;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  position: absolute;
+}
+.main__container .hero .hero__first-row {
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+.main__container .hero .hero__first-row h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  margin-bottom: 43px;
+  font-weight: 600;
+}
+.main__container .hero .hero__first-row img {
+  position: absolute;
+  right: 125px;
+  top: 45px;
+}
+.main__container .hero .hero__second-row p {
+  color: #909090;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: 300;
+}
+.main__container .hero__grid {
+  margin-top: 50px;
+  padding-top: 550px;
+}
 .main__container .hero__grid-ul {
   list-style-image: url(../img/check.svg);
   display: grid;
   align-items: center;
   justify-content: center;
   grid-template-columns: 1fr 1fr;
+  padding-left: 1200px;
+  gap: 32px;
+}
+.main__container .hero__grid-ul li {
+  color: #909090;
 }/*# sourceMappingURL=style.css.map */
