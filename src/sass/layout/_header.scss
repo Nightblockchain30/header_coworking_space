@@ -1,0 +1,40 @@
+.header__container{
+    margin: 33px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 308px;
+
+    .header__main__nav{
+        &-ul{
+            display: flex;
+            gap: 56px;
+            list-style: none;
+            li a{
+                text-decoration: none;
+                color: $black;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .header__aside-ul{
+        display: flex;
+        gap: 32px;
+        list-style: none;
+        align-items: center;
+        a img.search{
+            margin-right: 65px;
+        }
+
+        li a{
+            color: $brown;
+        }
+
+        li a.singup{
+            padding: 16.05px 40.05px;
+            color: white;
+            background-color: $brown;
+        }
+    }
+}

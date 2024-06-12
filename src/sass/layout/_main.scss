@@ -2,6 +2,11 @@
     .hero__grid{
         &-ul{
             list-style-image: url(../img/check.svg);
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
         }
     }
 }
+
