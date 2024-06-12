@@ -11,15 +11,47 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-  
+
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  <style>
+      .hero__grid-ul{
+            list-style-image: url(img/check.svg);
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            grid-template-columns: 1fr 1fr;
+        }
+
+  </style>
 </head>
+
+
 
 <body>
   <header>
     <div class="header__container">
-      <h1>ajaj</h1>
+      <a href="#" class="header__a">
+        <img src="img/cozylogo.svg" alt="logo" class="header__a-img">
+      </a>
+
+      <nav class="header__main__nav">
+        <ul class="header__main__nav-ul">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Featured</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">More</a></li>
+        </ul>
+      </nav>
+
+      <aside class="header__aside">
+        <ul class="header__aside-ul">
+          <li><a href="#"><img src="img/lupa.svg" alt="search"></a></li>
+          <li><a href="#">Sign In</a></li>
+          <li><a href="#">Sign Up</a></li>
+        </ul>
+      </aside>
 
     </div>
   </header>
@@ -27,11 +59,52 @@
   <main>
     <div class="main__container">
 
+      <div class="hero">
+        <div class="hero__first-row">
+          <h1>Find your comfort 
+            working zone with 
+            Cozy Corner
+            </h1>
+          <img src="img/rectangle.svg" alt="rectangle">
+        </div>
+        <div class="hero__second-row">
+          <p>Change your work environment by using a co-working place, to meet new people and gain a new network
+          </p>
+        </div>
+      </div>
+
+      <div class="hero__grid">
+        <ul class="hero__grid-ul">
+          <li>Virtual Office Setup</li>
+          <li>Open Workspace</li>
+          <li>Space for Event</li>
+          <li>Chill Out Zone</li>
+        </ul>
+      </div>
+
+      
     </div>
   </main>
 
   <footer>
     <div class="footer__container">
+      <article class="footer__article article1">
+        <img src="img/location.svg" alt="location icon"></img>
+        <h3>20+ Location</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </article>
+
+      <article class="footer__article article2">
+        <img src="img/room.svg" alt="rooms icon"></img>
+        <h3>324 Rooms Available</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </article>
+
+      <article class="footer__article article3">
+        <img src="img/wifi.svg" alt="wifi icon"></img>
+        <h3>100% Internet Connected</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </article>
 
     </div>
   </footer>
