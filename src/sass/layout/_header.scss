@@ -15,6 +15,9 @@
                 color: $black;
                 font-weight: 500;
             }
+            li a.active{
+                color: $brown;
+            }
         }
     }
 
@@ -23,18 +26,22 @@
         gap: 32px;
         list-style: none;
         align-items: center;
+        width: 500px;
         a img.search{
             margin-right: 65px;
         }
 
         li a{
             color: $brown;
+            display: inline-block;
+
         }
 
         li a.singup{
             padding: 16.05px 40.05px;
             color: white;
             background-color: $brown;
+            text-decoration: none;
         }
     }
 }
