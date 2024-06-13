@@ -19,6 +19,9 @@
             color: $grey;
             max-width: 300px;
         }
+        &:hover{
+            transform: scale(1.3);
+        }
     }
 
     // .article1{

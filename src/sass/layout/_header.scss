@@ -14,6 +14,9 @@
                 text-decoration: none;
                 color: $black;
                 font-weight: 500;
+                &:hover{
+                    color: $brown;
+                }
             }
             li a.active{
                 color: $brown;
@@ -28,12 +31,18 @@
         align-items: center;
         a img.search{
             margin-right: 45px;
+            // transition: 1.3s;
+            &:hover{
+                transform: scale(1.3);
+            }
         }
 
         li a{
             color: $brown;
             display: inline-block;
-
+            &:hover{
+                color: $black;
+            }
         }
 
         li a.singup{
@@ -41,6 +50,9 @@
             color: white;
             background-color: $brown;
             text-decoration: none;
+            &:hover{
+                background-color: $black;
+            }
         }
     }
 }
