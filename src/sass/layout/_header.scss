@@ -8,7 +8,7 @@
     .header__main__nav{
         &-ul{
             display: flex;
-            gap: 75px;
+            gap: 56px;
             list-style: none;
             li a{
                 text-decoration: none;
@@ -26,9 +26,8 @@
         gap: 32px;
         list-style: none;
         align-items: center;
-        width: 500px;
         a img.search{
-            margin-right: 65px;
+            margin-right: 45px;
         }
 
         li a{

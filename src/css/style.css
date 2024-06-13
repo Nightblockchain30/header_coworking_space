@@ -10,6 +10,7 @@
   margin-top: 71px;
   margin-left: 160px;
   margin-right: 160px;
+  margin-bottom: 37px;
   display: flex;
   font-family: "Poppins", sans-serif;
   justify-content: space-around;
@@ -38,7 +39,7 @@
 }
 .header__container .header__main__nav-ul {
   display: flex;
-  gap: 75px;
+  gap: 56px;
   list-style: none;
 }
 .header__container .header__main__nav-ul li a {
@@ -54,10 +55,9 @@
   gap: 32px;
   list-style: none;
   align-items: center;
-  width: 500px;
 }
 .header__container .header__aside-ul a img.search {
-  margin-right: 65px;
+  margin-right: 45px;
 }
 .header__container .header__aside-ul li a {
   color: #9B9A78;
@@ -78,7 +78,7 @@
   background-image: url("../img/imghero2x.png");
   background-repeat: no-repeat;
   background-position: left;
-  background-size: 1000px;
+  background-size: 870px;
   min-width: 588px;
 }
 .main__container .hero {
@@ -86,8 +86,9 @@
   margin-top: 90px;
   right: 0px;
   top: 0;
-  max-width: 800px;
-  min-width: 500px;
+  max-width: 950px;
+  min-width: 870px;
+  margin-bottom: 20px;
   margin-bottom: 20px;
   background-color: #FFFFFF;
   opacity: 0.8;
@@ -102,11 +103,11 @@
   font-family: "Playfair Display", serif;
   font-size: 60px;
   margin-bottom: 43px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .main__container .hero .hero__first-row img {
   position: absolute;
-  right: 125px;
+  right: 170px;
   top: 45px;
 }
 .main__container .hero .hero__second-row p {
@@ -114,20 +115,27 @@
   line-height: 40px;
   font-size: 24px;
   font-weight: 300;
+  max-width: 650px;
 }
 .main__container .hero__grid {
   margin-top: 50px;
-  padding-top: 550px;
+  padding-top: 540px;
 }
 .main__container .hero__grid-ul {
-  list-style-image: url(../img/check.svg);
   display: grid;
   align-items: center;
   justify-content: center;
   grid-template-columns: 1fr 1fr;
-  padding-left: 1200px;
+  padding-left: 970px;
   gap: 32px;
+  list-style: none;
 }
 .main__container .hero__grid-ul li {
   color: #909090;
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  background-size: 18px;
+  padding-left: 30px;
+  font-weight: 600;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */

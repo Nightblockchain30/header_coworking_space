@@ -6,15 +6,16 @@
     background-image: url("../img/imghero2x.png");
     background-repeat: no-repeat;
     background-position:left;
-    background-size: 1000px;
+    background-size: 870px;
     min-width: 588px;
     .hero{
         padding: 26px 20px 54px 56px;
         margin-top: 90px;
         right: 0px;
         top: 0;
-        max-width: 800px;
-        min-width: 500px;
+        max-width: 950px;
+        min-width: 870px;
+        margin-bottom: 20px;
         margin-bottom: 20px;
         background-color: #FFFFFF;
         opacity: 0.8;
@@ -27,11 +28,11 @@
                 font-family: $second-font;
                 font-size: 60px;
                 margin-bottom: 43px;
-                font-weight: 600;
+                font-weight: 700;
             }
             img{
                 position: absolute;
-                right: 125px;
+                right: 170px;
                 top: 45px;
             }
         }
@@ -40,22 +41,30 @@
             line-height: 40px;
             font-size: 24px;
             font-weight: 300;
+            max-width: 650px;
         }
     }
     
     .hero__grid{
         margin-top:50px;
-        padding-top: 550px;
+        padding-top: 540px;
         &-ul{
-            list-style-image: url(../img/check.svg);
             display: grid;
             align-items: center;
             justify-content: center;
             grid-template-columns: 1fr 1fr;
-            padding-left: 1200px;
+            padding-left: 970px;
             gap: 32px;
+            list-style: none;
             li{
                 color: $grey;
+                background-image: url(../img/check.svg);
+                background-repeat: no-repeat;
+                background-size: 18px;
+                padding-left: 30px;
+                font-weight: 600;
+                font-size: 18px;
+
             }
         }
     }
