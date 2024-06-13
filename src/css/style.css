@@ -21,10 +21,12 @@
 .footer__container .footer__article h3 {
   margin-bottom: 8px;
   margin-top: 8px;
+  font-size: 24px;
 }
 .footer__container .footer__article p {
   font-size: 18px;
   color: #909090;
+  max-width: 300px;
 }
 
 .header__container {
@@ -32,7 +34,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 308px;
+  gap: 270px;
 }
 .header__container .header__main__nav-ul {
   display: flex;
